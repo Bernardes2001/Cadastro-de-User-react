@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10%;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: rgb(90, 3, 54);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5%;
+}
+
+.form-button button:hover {
+    background-color: #fff;
+}
+
+
+.lista {
+    margin-top: 2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista li {
+    background: #f8f9fa;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista li span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.lista li .info-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.lista li .info-value {
+    color: #333;
+}
+.lista li .info {
+    margin-bottom: 0.5rem;
+}
+.lista li {
+    background: #f8f9fa;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.lista button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+.lista button.edit {
+    background-color: darkorange;
+    align-items: end;
+    text-align: end;
+}
+.lista button.delete {
+    background-color: darkred;
+    align-items: end;
+    text-align: end;
+}
+.lista button:hover {
+    opacity: 0.8;
+}
+.lista button.edit:hover {
+    background-color: orange;
+}
+.lista button.delete:hover {
+    background-color: #c82333;
+}
+
+.lista .info {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.lista .info-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.lista .info-value {
+    color: #333;
+}
